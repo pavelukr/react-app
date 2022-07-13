@@ -13,3 +13,21 @@
  *= require_tree .
  *= require_self
  */
+@import "bootstrap";
+
+.float-container {
+  padding: 10px;
+}
+
+.float-child-left {
+  width: 60%;
+  float: left;
+  padding: 10px;
+}
+
+.float-child-right {
+  width: 40%;
+  float: right;
+  padding: 10px;
+  text-align: end;
+}
